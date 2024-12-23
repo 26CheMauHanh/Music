@@ -35,7 +35,7 @@
         android:id="@+id/btnPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="#5dc7a3"
         android:drawableLeft="@drawable/dkmh1_phone"
         android:paddingLeft="20dp"
@@ -51,7 +51,7 @@
         android:textSize="20sp"
         android:backgroundTint="#333333"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:drawableLeft="@drawable/dkmh1_fb"
         android:paddingLeft="20dp" />
 
@@ -63,7 +63,7 @@
         android:textSize="20sp"
         android:backgroundTint="#333333"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:drawableLeft="@drawable/dkmh1_google"
         android:paddingLeft="20dp" />
 
@@ -75,7 +75,7 @@
         android:textSize="20sp"
         android:backgroundTint="#333333"
         android:textColor="#FFFFFF"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="15dp"
         android:drawableLeft="@drawable/dkmh1_apple"
         android:paddingLeft="20dp" />
 
@@ -124,7 +124,7 @@
     <Button
         android:id="@+id/btnPassword"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:text="Đăng nhập với mật khẩu"
         android:backgroundTint="#888888"
         android:textColor="#FFFFFF"
