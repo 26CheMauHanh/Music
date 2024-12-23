@@ -7,14 +7,7 @@
     android:padding="16dp"
     android:background="@color/white">
 
-    <!-- Back Button -->
-    <ImageView
-        android:id="@+id/backButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/dk_back"
-        android:contentDescription="Back"
-        android:layout_marginBottom="25dp" />
+
 
     <!-- Title -->
     <TextView
@@ -56,18 +49,18 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="2dp"
-                android:background="@drawable/dkmh5_dash"
                 android:layout_centerInParent="true" />
 
             <!-- Ô nhập mã -->
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:gravity="center"
                 android:inputType="number"
-                android:textSize="18sp"
+                android:maxLength="1"
                 android:background="@android:color/transparent"
-                android:maxLength="1" />
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
         </RelativeLayout>
 
         <!-- Lặp lại các ô mã OTP khác -->
@@ -80,17 +73,17 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="2dp"
-                android:background="@drawable/dkmh5_dash"
                 android:layout_centerInParent="true" />
 
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:gravity="center"
                 android:inputType="number"
-                android:textSize="18sp"
+                android:maxLength="1"
                 android:background="@android:color/transparent"
-                android:maxLength="1" />
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="48dp"
@@ -102,18 +95,18 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="2dp"
-                android:background="@drawable/dkmh5_dash"
                 android:layout_centerInParent="true" />
 
             <!-- Ô nhập mã -->
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:gravity="center"
                 android:inputType="number"
-                android:textSize="18sp"
+                android:maxLength="1"
                 android:background="@android:color/transparent"
-                android:maxLength="1" />
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="48dp"
@@ -125,18 +118,18 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="2dp"
-                android:background="@drawable/dkmh5_dash"
                 android:layout_centerInParent="true" />
 
             <!-- Ô nhập mã -->
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:gravity="center"
                 android:inputType="number"
-                android:textSize="18sp"
+                android:maxLength="1"
                 android:background="@android:color/transparent"
-                android:maxLength="1" />
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="48dp"
@@ -148,18 +141,18 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="2dp"
-                android:background="@drawable/dkmh5_dash"
                 android:layout_centerInParent="true" />
 
             <!-- Ô nhập mã -->
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:gravity="center"
                 android:inputType="number"
-                android:textSize="18sp"
+                android:maxLength="1"
                 android:background="@android:color/transparent"
-                android:maxLength="1" />
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
         </RelativeLayout>
         <RelativeLayout
             android:layout_width="48dp"
@@ -171,27 +164,30 @@
             <ImageView
                 android:layout_width="24dp"
                 android:layout_height="2dp"
-                android:background="@drawable/dkmh5_dash"
                 android:layout_centerInParent="true" />
 
             <!-- Ô nhập mã -->
             <EditText
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
                 android:gravity="center"
                 android:inputType="number"
-                android:textSize="18sp"
+                android:maxLength="1"
                 android:background="@android:color/transparent"
-                android:maxLength="1" />
+                android:textSize="18sp"
+                android:importantForAccessibility="no" />
         </RelativeLayout>
 
     <!-- Resend Code -->
     </LinearLayout>
     <TextView
-        android:id="@+id/resendCode"
+        android:id="@+id/tvResendCode"
         android:layout_width="wrap_content"
-        android:layout_height="42dp"
-        android:text="Gửi lại mã x giây"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:text="Gửi lại mã"
         android:textColor="@color/blue"
-        android:textSize="18sp" />
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="16sp" />
 </LinearLayout>
