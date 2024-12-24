@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DKMH5Activity extends AppCompatActivity {
+public class dkmh5_nhapmaxacnhanActivity extends AppCompatActivity {
 
     private TextView subtitle;
 
