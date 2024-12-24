@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class PhoneSignupActivity extends AppCompatActivity {
+public class DKMH4_dangkysdtActivity extends AppCompatActivity {
 
     private ImageView btnBack; // Nút "Back"
     private TextView tabEmail; // Tab "Email"
