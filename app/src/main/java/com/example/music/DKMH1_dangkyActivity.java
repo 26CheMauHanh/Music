@@ -14,7 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import model.User;
 
-public class MainActivity extends AppCompatActivity {
+public class DKMH1_dangkyActivity extends AppCompatActivity {
 
     private TextView signupText; // Khai báo TextView "Đăng ký ngay"
     private CheckBox termsCheckbox; // Khai báo CheckBox
