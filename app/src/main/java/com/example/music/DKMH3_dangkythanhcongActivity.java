@@ -7,7 +7,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SuccessActivity extends AppCompatActivity {
+public class DKMH3_dangkythanhcongActivity extends AppCompatActivity {
     private Button btnBack;
 
     @Override
