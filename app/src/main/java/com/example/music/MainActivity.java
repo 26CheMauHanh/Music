@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
         DatabaseReference databaseReference = FirebaseDatabase.getInstance("https://bold-apricot-445309-p8-default-rtdb.asia-southeast1.firebasedatabase.app/")
                 .getReference("/save_data/User/user1");
-        User user = new User("id","username")
+        User user = new User("id","username");
         databaseReference.setValue("Hello, World!");
     }
 }
