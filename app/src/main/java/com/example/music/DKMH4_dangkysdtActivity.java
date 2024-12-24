@@ -14,7 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class DKMH4_dangkysdtActivity extends AppCompatActivity {
 
-    private ImageView btnBack; // Nút "Back"
     private TextView tabEmail; // Tab "Email"
     private Button btnSendCode; // Nút "GỬI MÃ"
     private EditText etPhoneNumber; // Trường nhập số điện thoại
@@ -26,7 +25,6 @@ public class DKMH4_dangkysdtActivity extends AppCompatActivity {
         setContentView(R.layout.dkmh4_dangkysdt); // Liên kết với layout "Đăng ký số điện thoại"
 
         // Ánh xạ các thành phần
-        btnBack = findViewById(R.id.btnBack);
         tabEmail = findViewById(R.id.tabEmail);
         btnSendCode = findViewById(R.id.btnSendCode);
         etPhoneNumber = findViewById(R.id.etPhoneNumber);
