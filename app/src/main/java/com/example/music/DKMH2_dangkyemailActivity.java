@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class EmailSignupActivity extends AppCompatActivity {
+public class DKMH2_dangkyemailActivity extends AppCompatActivity {
     private Button btnRegister; // Button "ĐĂNG KÝ MỚI"
     private TextView tabPhone; // Tab chuyển sang đăng ký bằng số điện thoại
     private EditText editTextPassword; // Trường nhập mật khẩu
